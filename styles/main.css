@@ -28,7 +28,51 @@
     margin-top: 1%;
 }
 
-h4 {
+.project_card h4 {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+    /* border: solid black 1px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project_card h4 a {
+    text-decoration: none;
+    font-size: 24px;
+    background-color: rgb(151, 187, 128);
+    padding: 2px 30px;
+    border-radius: 7px;
+}
+
+.project_card h4 a:hover {
+    background-color: rgb(179, 207, 162);
+}
+
+.project_card p {
+    text-align: center;
+}
+
+.project_card p:hover {
+    cursor: default;
+}
+
+.project_card {
+    text-align: center;
+}
+
+.project_card .col-4 {
+    text-align: center;
+}
+
+.nav_bar {
+    text-align: center;
+}
+
+.other-projects {
+    border-top: 1px solid black;
+}
+
+.title-header {
+    text-align: center;
 }

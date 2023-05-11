@@ -21,9 +21,10 @@ body {
 /* ROOT FONT STYLES */
 
 * {
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #333447;
   line-height: 1.5;
+  background-color: antiquewhite;
 }
 
 /* TYPOGRAPHY */
